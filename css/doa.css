@@ -1,0 +1,80 @@
+body {
+    background-color: #A4BE7B;
+}
+
+.blue{
+  background: #425F57;
+  background-size: cover;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: #285430;
+  }
+  
+  header .logo{
+    position: relative;
+    color: white;
+    display: inline-block;
+    font-size: 2.3em;
+    text-decoration: none;
+    font-weight: 800;
+    margin-right: 40%;
+  }
+  
+  header ul{
+    position: relative;
+    display: flex;
+  }
+  
+  header ul li{
+    list-style: none;
+  }
+  
+  header ul li a{
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 8px 18px;
+    text-decoration: none;
+    user-select: none;
+  }
+  
+  header ul li a:hover{
+    background: black;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .btn-cta{
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: black;
+    color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .3s ease 0s;
+}
+
+.btn-cta:hover{
+  background-color: #647E68;
+  transform: rotate(2deg);
+}
+
+.card-isi-doa{
+    margin-top: auto;
+  }
